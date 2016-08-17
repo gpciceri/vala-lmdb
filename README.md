@@ -8,3 +8,5 @@ to build the sample (on OSX, with lmdb installed via port): from the same direct
 
 valac --vapidir . --pkg lmdb test_lmdb.vala -X -L/opt/local/lib -X -llmdb  -v
 
+N.B. you need to create ./testdb/ database directory before running the sample.
+
